@@ -6,4 +6,6 @@ export class Post {
     id: string;
     @Field()
     title: string;
+    @Field()
+    published: boolean;
 }
