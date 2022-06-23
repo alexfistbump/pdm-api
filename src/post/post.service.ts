@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from 'src/prisma.service';
 import { Post } from '@prisma/client'
-import { NewPost } from 'src/graphql';
+import { NewPost } from './entities/createPost';
 
 @Injectable()
 export class PostService {
